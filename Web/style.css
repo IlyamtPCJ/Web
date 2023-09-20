@@ -55,13 +55,12 @@ p {
 }
 
 .title {
-    height: 40px;
+    margin-top: 50px;
     background: fixed;
     background-color: rgb(27, 87, 198);
     color: white;
     font-size: small;
-    border-radius: 5px;
-    margin-top: 60px;
+    border-radius: 15px;
 }
 
 .tech {
@@ -85,3 +84,22 @@ p {
     width: 60%;
 }
 
+.stb {
+    margin-top: 50px;
+    background: fixed;
+    background-color: rgb(27, 87, 198);
+    color: white;
+    font-size: small;
+    border-radius: 15px;
+}
+
+.form {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.txtarea {
+    grid-column: 1/3;
+}
